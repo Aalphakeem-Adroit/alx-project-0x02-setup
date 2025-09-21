@@ -8,6 +8,14 @@ export default function PostsPage() {
   const [posts, setPosts] = useState<PostProps[]>([])
   const [loading, setLoading] = useState(true)
 
+
+
+  // DELETE
+  getStaticProps
+  // DELETE
+
+
+  
   useEffect(() => {
     const fetchPosts = async () => {
       try {
