@@ -8,6 +8,13 @@ export default function UsersPage() {
   const [users, setUsers] = useState<UserProps[]>([])
   const [loading, setLoading] = useState(true)
 
+
+
+    // DELETE
+  getStaticProps()
+  // DELETE
+
+
   useEffect(() => {
     const fetchUsers = async () => {
       try {
